@@ -1,5 +1,5 @@
 [gerrit]
 host=review.gerrithub.io
 port=29418
-project=rdo-management/rdo-ramdisk-tools
+project=rdo-management/ahc-tools
 defaultbranch=master
