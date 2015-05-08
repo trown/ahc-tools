@@ -15,13 +15,12 @@ from oslo_config import cfg
 
 EDEPLOY_OPTS = [
     cfg.StrOpt('lockname',
-               default='/var/lock/ahc-match.lock',
-               help='Lock file for edeploy. (Must be writable by the user '
-                    'doing matching)'),
+               default='/var/lock/edeploy.lock',
+               help='Lock file for edeploy.'),
     cfg.StrOpt('configdir',
-               default='/etc/edeploy',
+               default='/etc/ahc-tools/edeploy',
                help='Directory containing the edeploy state, .specs and .cmdb '
-                    'files. (Must be writable by the user doing matching)'),
+                    'files.'),
 ]
 MATCH_OPTS = [
     cfg.BoolOpt('debug',
