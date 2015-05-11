@@ -1,5 +1,7 @@
 [gerrit]
-host=review.gerrithub.io
-port=29418
-project=rdo-management/ahc-tools
-defaultbranch=master
+host=code.engineering.redhat.com
+port=22
+project=ahc-tools
+defaultbranch=rhos-7.0-patches
+defaultremote=rhos
+defaultrebase=0
